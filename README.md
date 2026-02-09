@@ -16,12 +16,14 @@ Terraform を用いて AWS 上に  VPC・Subnet・Internet Gateway・EC2 から�
   - Security Group
   - EC2
 
-## ディレクトリ構成
+## ディレクトリ構成 
+```
 ├── .gitignore
 ├── .terraform.lock.hcl
 ├── terraform.tfvars # ※ Git 管理対象外
 ├── README.md
 └── main.tf
+```
 
 ## terraform操作コマンド
 #初期化
