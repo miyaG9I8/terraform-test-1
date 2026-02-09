@@ -26,16 +26,16 @@ Terraform を用いて AWS 上に  VPC・Subnet・Internet Gateway・EC2 から�
 ```
 
 ## terraform操作コマンド
-#初期化
+#初期化<br>
 terraform init
 
-#実行前の確認
+#実行前の確認<br>
 terraform plan
 
-#実行
+#実行<br> 
 terraform apply
 
-#構築した環境の破棄
+#構築した環境の破棄<br> 
 terraform destroy
 
 ## 今後の改善予定
